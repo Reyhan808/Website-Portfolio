@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reyhan.Porto</title>
+  <meta name="description" content="Portofolio profesional — Reyhan Alif Ramadhan. Projects, skills, kontak." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+   <p class="greeting"><span id="typed" class="accent-text"></span></p>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">RYN</div>
+        <div>
+          <div class="brand-name">Reyhan Alif Ramadhan</div>
+          <div class="brand-subtitle">Siswa SMK NEGERI 1 PASIRIAN</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Skill</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card intro">
+          <p class="greeting"><span id="typed" class="accent-text"></span></p>
+          <p>Saya adalah Siswa SMK NEGERI 1 PASIRIAN,saya masuk jurusan Rekayasa  Perangkat Lunak(RPL)</p>
+          <div class="cta">
+            <a class="btn" href="#projects">Lihat Proyek</a>
+            <a class="btn ghost" href="">Kirim Email</a>
+          </div>
+
+          <div class="summary">
+            <h3>Ringkasan singkat</h3>
+            <ul>
+              <li>“Nama saya Reyhan Alif Ramadhan. Saat ini saya berstatus Pelajar. Saya sedikit menguasai Skill coding C++,hampir menjuarai lomba programing arduino dikampus polije. Di luar pembelajaran saya sering mengasah skil Database dan php saat ini.</li>
+              
+            </ul>
+          </div>
+        </div> 
+
+        <aside class="profile card">
+          <div class="photo">
+            <img src="images/images_profil.jpeg" alt="Foto Profil" />
+          </div>
+          <div class="profile-text">
+            <div class="profile-name">Reyhan Alif Ramadhan</div>
+            <br>
+            <div class="profile-social-hint">Sosmed Saya Silahkan CLICK</div>
+            <div class="profile-arrow">⬇</div>
+          </div>
+
+          <div class="meta">
+            <a href="https://github.com/Reyhan808?tab=stars">GitHub</a>
+            <br>
+            <a href="https://www.tiktok.com/@reyhan_a.r25?is_from_webapp=1&sender_device=pc">TikTok</a>
+            <br>
+            <a href="https://www.instagram.com/ralifreyhan?igsh=MXV5M3ljZzZreTZicQ==">Instagram</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="sections">
+        <div>
+          <div id="projects" class="card projects-section">
+            <h3>Proyek Yang Sudah Saya kerjakan</h3>
+            <div class="projects-grid">
+              <div class="project" data-title="Robot Avoider" data-desc="Pengukur jarak Dengan Arduino" data-images="images/LEDKK2.jpeg,images/LEDKKK3.jpeg,images/LEDKK4.jpeg" data-link="https://youtu.be/qhOIErhSq5A" onclick="openProject(this)">
+                <img src="images/LEDKK1.jpeg" alt="Project KK" />
+                <h4>Project KK kelas:X SEMESTER 1</h4>
+                <p>Pengukur jarak Dengan Arduino </p>
+              </div>
+
+              <div class="project" data-title="Lampu via HP" data-desc="Robot Avoider — robot yang menghindari rintangan." data-images="images/pkk2.jpeg,images/pkk3.jpeg,images/pkk4.jpeg,images/pkk5.jpeg,images/pkk6.jpeg,images/pkk7.jpeg,images/pkk8.jpeg," data-link="https://youtu.be/mklQnvWb3No?si=-NjK9drugJiTqQks" onclick="openProject(this)">
+                <img src="images/fotopkk.jpeg" alt="Project KK" />
+                <h4>Project KK kelas:X SEMESTER 2</h4>
+                <p>Robot Avoider — robot yang menghindari rintangan.</p>
+              </div>
+
+              <div class="project" data-title="Java App" data-desc="smart Home Berbasis IOT" data-images="images/pkkl1.jpeg,images/pkkl2.jpeg,images/pkkl3.jpeg,images/pkkl4.jpeg,images/pkkl5.jpeg,images/pkkl6.jpeg," data-link="https://youtube.com/shorts/dwx3u4vhJl0" onclick="openProject(this)">
+                <img src="images/pkkcover.jpeg" alt="Project PKK" />
+                <h4>Project PKK Kelas:XI SEMESTER 1</h4>
+                <p>Smart Home Berbasis IOT</p>
+              </div>
+
+              
+            </div>
+          </div>
+
+          <div id="about" class="card">
+            <h3>Tentang Saya</h3>
+            <p class="muted-text">Perkenalkan,Saya Reyhan  <strong>Alif Ramadhan</strong>. Saya saat ini fokus Mengasah Skill yang sederhana, rapi, dan cepat. Saya tertarik pada pemograman website dan perakitan. Saat ini saya terbuka untuk proyek IOT maupun WEBSITE.</p>
+
+            <h4 class="experience-title">Alamat Saya</h4>
+            <ul class="muted-text">
+              <li>belakang Stadion Pasirian, jalan veteran perempatan belok kiri dari prajaya fitnes,Pasirian, Kab. Lumajang,</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <div id="skills" class="box">
+            <h4>Skill</h4>
+            <div class="skills">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              
+              <div class="skill">C++</div>
+            </div>
+          </div>
+
+          <div class="box" id="contact">
+            <h4>Hubungi Saya</h4>
+            <p class="muted-text">Email: <a href="mailto:ralifreyhan@gmail.com">ralifreyhan@gmail.com</a></p>
+            <p class="muted-text">Atau lewat formulir ini:</p>
+
+            <!-- FORM: kirim ke backend/contact.php -->
+            <form action="backend/contact.php" method="post">
+              <div class="form-group">
+                <input name="name" id="name" placeholder="NAMA ANDA " required />
+                <input name="email" id="email" placeholder="EMAIL ANDA" type="email" required />
+                <textarea name="message" id="message" placeholder="SARAN DAN KRITIKAN UNTUK WEB INI ATAU  YANG LAINYA" rows="4" required></textarea>
+                <button type="submit" class="btn">Kirim</button>
+              </div>
+            </form>
+
+          </div>
+
+          
+        </aside>
+      </section>
+
+      <footer>
+        <span id="year"></span> Dibuat Oleh Reyhan Alif Ramadhan • Bersama chatgpt
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Project modal (simple) -->
+  <div id="modal">
+    <div class="card">
+      <!-- replaced float button with absolute positioned close -->
+      <button id="modal-close" onclick="closeModal()" aria-label="Tutup">✕</button>
+
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+
+      <!-- gallery will be injected here -->
+      <div id="modal-gallery"></div>
+
+      <div class="modal-link">
+        <a id="modal-link" class="btn" href="#" target="_blank" rel="noopener">CLICK UNTUK LIHAT VIDEO</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Small interaction scripts
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function openProject(el){
+      const title = el.dataset.title || 'Project';
+      const desc = el.dataset.desc || '';
+      const imgs = el.dataset.images ? el.dataset.images.split(',') : [];
+
+      document.getElementById('modal-title').textContent = title;
+      document.getElementById('modal-desc').textContent = desc;
+      document.getElementById('modal-link').href = el.dataset.link || '#';
+
+      const gallery = document.getElementById('modal-gallery');
+      gallery.innerHTML = ''; // kosongkan isi sebelumnya
+
+      imgs.forEach(src => {
+        const trimmed = src.trim();
+        if(!trimmed) return;
+        const img = document.createElement('img');
+        img.src = trimmed;
+        img.alt = title;
+        // small style tweak for images added dynamically (if user wants lightbox later)
+        img.style.maxWidth = '100%';
+        gallery.appendChild(img);
+      });
+
+      // show modal
+      const modal = document.getElementById('modal');
+      modal.style.display = 'flex';
+      // prevent background scroll while modal open
+      document.body.style.overflow = 'hidden';
+      // ensure focus on close button for accessibility
+      document.getElementById('modal-close').focus();
+    }
+
+    function closeModal(){
+      const modal = document.getElementById('modal');
+      modal.style.display = 'none';
+      document.body.style.overflow = ''; // restore
+    }
+
+    // close on pressing Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('modal');
+        if (modal.style.display === 'flex') closeModal();
+      }
+    });
+
+    // clicking outside card closes modal
+    document.getElementById('modal').addEventListener('click', function(e){
+      if (e.target === this) closeModal();
+    });
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(a=>{
+      a.addEventListener('click', (ev)=>{
+        ev.preventDefault();
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+
+    // Tampilkan notifikasi singkat berdasarkan query string dari contact.php
+    (function(){
+      const params = new URLSearchParams(window.location.search);
+      const msg = params.get('msg');
+      if(!msg) return;
+      if(msg === 'success') {
+        alert('Formulir Anda Sudah Terkirim, TERIMA KASIH');
+        history.replaceState(null, '', window.location.pathname);
+      } else if(msg === 'error') {
+        const detail = params.get('detail') || 'Terjadi kesalahan.';
+        alert('Gagal mengirim: ' + decodeURIComponent(detail));
+        history.replaceState(null, '', window.location.pathname);
+      }
+    })();
+  </script>
+</body>
+</html>
