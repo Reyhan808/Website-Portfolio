@@ -202,3 +202,53 @@ footer{margin-top:30px; color:var(--muted); text-align:center}
   .intro h1 { font-size:28px; }              /* mobile heading */
 }
 
+/* DataSheet styles */
+#datasheet .form-group input,
+#datasheet .form-group textarea {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: inherit;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.ds-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 6px;
+  font-size: 14px;
+}
+.ds-table thead th {
+  text-align: left;
+  padding: 10px;
+  background: rgba(0,0,0,0.12);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.ds-table tbody td {
+  padding: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  color: var(--muted);
+}
+.ds-table tbody tr:hover td {
+  background: rgba(255,0,0,0.02); /* subtle red highlight */
+  color: #fff;
+}
+.ds-action-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 6px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--muted);
+}
+.ds-action-btn:hover { color: var(--accent); border-color: rgba(255,255,255,0.08); }
+
+/* responsive small screens */
+@media (max-width: 700px) {
+  .ds-table thead { display:none; }
+  .ds-table tbody td { display:block; width:100%; box-sizing:border-box; }
+  .ds-table tbody tr { margin-bottom:12px; display:block; border-bottom:1px dashed rgba(255,255,255,0.03); }
+}
+
+
